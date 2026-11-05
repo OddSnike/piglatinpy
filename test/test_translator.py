@@ -1,5 +1,7 @@
 from unittest import TestCase
 
+from translator import PigLatinTranslator
+
 
 class TestPigLatinTranslator(TestCase):
 

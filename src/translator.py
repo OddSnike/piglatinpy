@@ -40,4 +40,5 @@ class PigLatinTranslator:
 
             return self.phrase + "ay"
 
-        return "ellohay"
+        phrase = self.phrase[1:len(self.phrase)] + first_letter
+        return phrase + "ay"

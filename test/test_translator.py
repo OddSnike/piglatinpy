@@ -74,3 +74,13 @@ class TestPigLatinTranslator(TestCase):
 
         # Assert
         self.assertEqual("ellohay", translation)
+
+    def test_traslate_start_consonant_x(self):
+        # Assign
+        translator = PigLatinTranslator("world")
+
+        # Act
+        translation = translator.translate()
+
+        # Assert
+        self.assertEqual("orldway", translation)

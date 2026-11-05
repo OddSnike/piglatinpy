@@ -65,7 +65,7 @@ class TestPigLatinTranslator(TestCase):
         # Assert
         self.assertEqual("askay", translation)
 
-    def test_traslate_start_consonant(self):
+    def test_traslate_start_consonant_h(self):
         # Assign
         translator = PigLatinTranslator("hello")
 
